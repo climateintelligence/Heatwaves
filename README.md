@@ -7,9 +7,14 @@ Repository containing python package for the computing of Marine Heatwave index 
 Requirements: installed conda or mamba 
 
 
-to install the heatwaves environmet type in a terminal: 
+to install the heatwaves environmet and run the notebooks type in a terminal: 
 ```shell 
+git clone git@github.com:climateintelligence/Heatwaves.git 
+cd Heatwaves
+
 conda env create
 conda activate heatwaves
+
+jupyter lab
 ```
 
